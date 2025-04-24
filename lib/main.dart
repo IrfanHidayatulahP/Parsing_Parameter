@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pertemuan4/presentation/home_page.dart';
 import 'package:pertemuan4/presentation/login_page.dart';
 import 'package:pertemuan4/presentation/order_page.dart';
 
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/login',
       routes: {
         '/login': (context) => const LoginPage(),
-        '/home': (context) => const MyHomePage(title: 'Home Page'),
+        '/home': (context) => const HomePage(),
         '/order': (context) => const OrderPage(),
       },
     );
